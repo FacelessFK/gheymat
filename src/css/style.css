@@ -43,13 +43,13 @@ html {
     font-size: 62.5%;
 
     @media only screen and (max-width: 61.25em) {
-        font-size: 50%;
+        font-size: 55%;
     }
     @media only screen and (max-width: 40.62em) {
-        font-size: 43%;
+        font-size: 50%;
     }
     @media only screen and (max-width: 34.37em) {
-        font-size: 40%;
+        font-size: 48%;
     }
 }
 body {
@@ -147,6 +147,7 @@ ul {
     justify-content: center;
     flex-direction: row-reverse;
     flex-wrap: wrap;
+
     @media only screen and (max-width: 34.37em) {
         flex-direction: column;
         align-items: center;
